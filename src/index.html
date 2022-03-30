@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>HTML squad</title>
+    <link rel="stylesheet" href="style.css" >
 </head>
 <body>
     <div hidden>
@@ -60,7 +61,7 @@
 
     </div>
 
-    <div class="zadataka2">
+    <div class="zadataka2" hidden>
 
         <!--glavni naslov-->
         <h1>Uvod u HTML</h1>
@@ -80,5 +81,59 @@
 
     </div>
 
+    <div class="multimedija">
+
+        <h2>Multimedija</h2>
+
+        <p>točkice su zapravo bitne, pomažu s orijentacijom</p>
+
+        <p>primjer van foldera u kojem je .html</p>
+        <img width="300px" src="../primjer.jpg" alt="primjer van foldera u kojem je .html" >
+
+        <p>primjer u folderu koji sibling od foldera u kojem je .html</p>
+        <img src="../slike/primjer_u_folderu.jpg" width="300px" alt="primjer u folderu koji sibling od foldera u kojem je .html">
+        
+        <p>u istom file-u kao .html</p>
+        <img src="u_src_file-u.jpg" alt="u istom file-u kao .html" width="300px">
+        <br>
+        <img src="../slike/proba_za_css.jpg" alt="">
+
+        
+        <div class="proba">
+           
+        </div>
+    
+
+        <div class="svgProba">
+
+            <svg width="400" height="200">
+                <rect width="200" height="100" x="100" y="50" stroke="#11q2r" stroke-width="2px"></rect>
+            </svg>
+            <hr>
+            <svg width="400" height="200">
+                <circle cr="100" r="85"></circle>
+                <!--ni mi bas jasno skroz al nije strasno-->
+            </svg>
+
+        </div>
+
+        <div class="canvasProba" width="1500" height="1500">
+            <!--korsti se u jednostavnim igricama u browseru-->
+            <!--container za js praktički-->
+            
+           <canvas class="myCanvas" 
+           width="200" 
+           height="100" 
+           style="border:1px solid #000000">
+
+        </canvas>
+
+        <canvas id="tecajcanvasa" width="600" height="600">
+            Vaš preglednik ne podržava canvas
+        </canvas>
+
+        </div>
+    </div>
+<script src="script.js"></script>
 </body>
 </html>

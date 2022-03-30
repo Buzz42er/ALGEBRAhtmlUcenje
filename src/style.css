@@ -1,0 +1,10 @@
+.proba {
+    background-image: url("../slike/proba_za_css.jpg");
+    height: 100px;
+    width: 100px;
+    
+}
+
+.canvasProba {
+    border: 2px red;
+}
