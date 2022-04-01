@@ -81,7 +81,44 @@
 
     </div>
 
+    <div class="zadataka3liste" hidden>
+
+        <h1>Rad s grafikom u HTML-u</h1>
+        <h2>Formati grafičkih datoteka</h2>
+
+        <p>Za prikaz grafike na webu koriste se sljedeći formati</p>
+
+        <dl>
+            <dt><strong>JPEG</strong></dt>
+            <dd><i>Joint Photographic Experts Groupe</i><br>Koristi se prikaz fotografija</dd>
+
+        </dl>
+
+        <dl>
+            <dt><strong>GIF</strong></dt>
+            <dd><i>Graphics Interchange Format</i><br>Korsiti se za prikaz jednostavne grafike</dd>
+
+        </dl>
+
+        <dl>
+            <dt><strong>PNG</strong></dt>
+            <dd><i>Portable Network Graphics</i><br>Koristi se za prikaz fotografija i crteža uz mogućnost primjera transparencije</dd>
+
+        </dl>
+        
+        <dl>
+            <dt><strong>SVG</strong></dt>
+            <dd><i>Scalable Vector Graphics</i><br>Koristi se za prikazivanje dvodimenzionalnih vektora slika(ikone, logotipi i sl.)</dd>
+
+        </dl>
+
+        
+
+    </div>
+
     <div class="multimedija">
+
+    <div class="photo" hidden>
 
         <h2>Multimedija</h2>
 
@@ -99,12 +136,12 @@
         <img src="../slike/proba_za_css.jpg" alt="">
 
         
-        <div class="proba">
+        <div class="proba" >
            
         </div>
     
 
-        <div class="svgProba">
+        <div class="svgProba"  >
 
             <svg width="400" height="200">
                 <rect width="200" height="100" x="100" y="50" stroke="#11q2r" stroke-width="2px"></rect>
@@ -117,7 +154,7 @@
 
         </div>
 
-        <div class="canvasProba" width="1500" height="1500">
+        <div class="canvasProba" width="1500" height="1500" >
             <!--korsti se u jednostavnim igricama u browseru-->
             <!--container za js praktički-->
             
@@ -133,7 +170,73 @@
         </canvas>
 
         </div>
+
+        <div class="svgproba">
+
+            <svg width="400" height="200">
+                <circle cx="200" cy="100" r="85" stroke="" stroke-width="10" fill="red"></circle>
+            </svg>
+    
+            <svg width="800" height="400">
+    
+                <circle cx="200" cy="150" r="50" stroke="blue" stroke-width="10" fill="none"></circle>
+                <circle cx="320" cy="150" r="50" stroke="black" stroke-width="10" fill="none"></circle>
+                <circle cx="440" cy="150" r="50" stroke="red" stroke-width="10" fill="none"></circle>
+                <circle cx="260" cy="200" r="50" stroke="orange" stroke-width="10" fill="none"></circle>
+                <circle cx="380" cy="200" r="50" stroke="green" stroke-width="10" fill="none"></circle>
+                
+            </svg>
+    
+        </div>
+
     </div>
+
+        <div class="audio">
+
+            </audio>
+            <audio src="../audio/Sting_Englishman_In_New_York.mp3" controls loop autoplay>
+
+            <audio controls>
+                <!--za više opcija, ako ne podržava prvu ide na drugu i tako dalje-->
+                <source src="" type="audio/ogg"><!--za ogg-->
+                <source src="../audio/Sting_Englishman_In_New_York.mp3" type="audio/mpeg"><!--za mp3-->
+            </audio>
+
+        </div>
+
+        <div class="video">
+
+            <video src="" width="" height="" controls></video> <!--mp4, ogg-->
+
+            <video src="">
+                <source src="" type="video/mp4">
+            </video>
+
+        </div>
+    
+    
+    </div>
+
+
+    <div class="poveznice">
+
+        <a href="">link tekst</a>
+        <a href="./index.html">Neka web stranica u folderu</a>
+        <a href="https://www.youtube.com/watch?v=2JPnwqbVIuQ">neka stranica na webu</a>
+        <a href="#idElement">anchor</a>
+        <a href="mailto:jure.eres42@gmail.com">Email</a>
+        <a href="tel:+385915735157">Telefon</a>
+
+        <a href="" target="">link tekst</a>
+
+
+    </div>
+    <!--prostor za ono što trenutno radim-->
+
+
+
+    <!--tu završava-->
+    
 <script src="script.js"></script>
 </body>
 </html>
