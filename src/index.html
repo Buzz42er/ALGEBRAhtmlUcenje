@@ -429,21 +429,75 @@
 </div>
 
 
+<div class="obrasci">
+    <form action method="post" enctype="text/plain" autocomplete="on" hidden>
+        <label for="ime">Ime</label> <br>
+        <label for="">Krivo</label> <br>
+        <input id="ime" type="text" placeholder="ime">
+        <button>Klikni me</button>
+    </form>
+
+    <form action="" method="post" class="zadatak1Form">
+        <div>
+        <label for="ime">Ime i prezime *</label> <br>
+        <input id="ime" name="ime" type="text" placeholder="Vaše ime i prezime">
+        </div>
+        <div>
+        <label for="email">E-mail adresa *</label> <br>
+        <input type="email" name="email" id="email" placeholder="Upišite valjanu email adresu" size="30">
+        </div>
+        <div>
+            <label for="kontakt">Kontakt broj</label> <br>
+            <input type="tel" name="kontakt" id="kontakt">
+        </div>
+        <div>
+            <label for="date">Datum rođenja</label> <br>
+            <input type="date" name="date" id="date">
+        </div>
+        <div>
+            <p>Koje jezike govorite?</p>
+            <br>
+            <label for="eng">Engleski</label>
+            <input type="checkbox" name="jezik" id="engleski" value="engleski">
+            <label for="tal">Talijanski</label>
+            <input type="checkbox" name="jezik" id="tal" value="talijanski"> 
+            <label for="njem">Njemački</label>
+            <input type="checkbox" name="jezik" id="njem" value="njemački">
+            <label for="fran">Francuski</label>
+            <input type="checkbox" name="jezik" id="fran" value="francuski">
+            <label for="span">Španjolski</label>
+            <input type="checkbox" name="jezik" id="span" value="španjolski">
+        </div>
+
+        <div>
+            <p>Jeste li do sada koristili usluge našega poduzeća?</p> <br>
+            <label for="da">DA</label>
+            <input type="radio" name="pozitivno" id="da" value="da">
+            <label for="ne">NE</label>
+            <input type="radio" name="ne" id="ne" value="ne">
+        </div>
+
+        <div>
+            <label for="prilog">Priloži životopis</label> <br>
+            <input type="file" name="file" id="prilog">
+        </div>
+        <div>
+            <input type="reset" name="reset" id="reset" value="poništi">
+            <input type="submit" name="submit" id="submit" value="prijavi se">
+        </div>
+
+    </form>
+</div>
+
+
     <!--prostor za ono što trenutno radim-->
 
-    <div class="obrasci">
-        <form action method="post" enctype="text/plain" autocomplete="on">
-            <label for="ime">Ime</label> <br>
-            <label for="">Krivo</label> <br>
-            <input id="ime" type="text" placeholder="ime">
-            <button>Klikni me</button>
-        </form>
-    </div>
+
 
 
     <!--tu završava-->
     
 <script src="script.js"></script>
-
+vjeran.zivkovic@predavaci.algebra.hr
 </body>
 </html>
