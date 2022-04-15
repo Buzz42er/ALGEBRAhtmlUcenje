@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>HTML squad</title>
-    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <div hidden>
-    <!--HTML komentar-->
-    <!--f5 za pokretanje browsera, kako bi vidio što si napravio-->
-    <h1 style="
+        <!--HTML komentar-->
+        <!--f5 za pokretanje browsera, kako bi vidio što si napravio-->
+        <h1 style="
     color: wheat;
     display: flex;
     font-size: 5cm;
     text-align: center;">
-    Vježbamo HTML</h1>
-    <article id="prviČlanak">
-    <h2>Ovo je prvi podnaslov</h2>
-    <!--title daje oblačić s tekstom, u pravilu se ne korisit-->
-    <p title="Naziv">tu je prvi članak</p>
-    </article>
-    <!--ne prepoznaje živković kao klasu-->
-    <vjeran živković = "ovoBiTrebalaBitiClass-a">ovo će vjerojatno biti paragraph</vjeran>
+            Vježbamo HTML</h1>
+        <article id="prviČlanak">
+            <h2>Ovo je prvi podnaslov</h2>
+            <!--title daje oblačić s tekstom, u pravilu se ne korisit-->
+            <p title="Naziv">tu je prvi članak</p>
+        </article>
+        <!--ne prepoznaje živković kao klasu-->
+        <vjeran živković="ovoBiTrebalaBitiClass-a">ovo će vjerojatno biti paragraph</vjeran>
     </div>
 
     <div calss="zadatak1" hidden>
@@ -32,7 +34,7 @@
         <!--podnaslov stranice-->
         <h2>Uvod u web design</h2>
         <p>neki tekst koji opisuje taj design <br> tako da imam drugi red</p>
-        
+
         <!--prvi podnaslov HTML-->
         <h2>HTML</h2>
 
@@ -43,7 +45,7 @@
         <h3>Sintaksa i pravila pisanja</h3>
 
         <!--sintaksa-->
-        <h4>Sintaksa HTML-a</h4> 
+        <h4>Sintaksa HTML-a</h4>
         <p>neki tekst koji opisuje sintaksu html-a<br> tako da imam drugi red</p>
 
         <!--pravila pisanja-->
@@ -55,10 +57,10 @@
         <p>neki tekst koji pretpostavljam ukratko opisuje css</p>
 
         <!--povijest-->
-        <h3>Povijest CSS-a</h3> 
+        <h3>Povijest CSS-a</h3>
         <p>neki tekst koji opisuje povijest css-a<br> tako da imam drugi red</p>
 
-        
+
 
     </div>
 
@@ -66,7 +68,8 @@
 
         <!--glavni naslov-->
         <h1>Uvod u HTML</h1>
-        <p><strong>HTML</strong> je <i>jezik za obilježavanje</i> ostatak prvog reda ovog paragrafa, pišem ja tako <br> drugi red</p>
+        <p><strong>HTML</strong> je <i>jezik za obilježavanje</i> ostatak prvog reda ovog paragrafa, pišem ja tako <br>
+            drugi red</p>
 
         <!--prvi podnaslov-->
         <h2>Povijest HTML-a</h2>
@@ -103,119 +106,123 @@
 
         <dl>
             <dt><strong>PNG</strong></dt>
-            <dd><i>Portable Network Graphics</i><br>Koristi se za prikaz fotografija i crteža uz mogućnost primjera transparencije</dd>
+            <dd><i>Portable Network Graphics</i><br>Koristi se za prikaz fotografija i crteža uz mogućnost primjera
+                transparencije</dd>
 
         </dl>
-        
+
         <dl>
             <dt><strong>SVG</strong></dt>
-            <dd><i>Scalable Vector Graphics</i><br>Koristi se za prikazivanje dvodimenzionalnih vektora slika(ikone, logotipi i sl.)</dd>
+            <dd><i>Scalable Vector Graphics</i><br>Koristi se za prikazivanje dvodimenzionalnih vektora slika(ikone,
+                logotipi i sl.)</dd>
 
         </dl>
 
-        
+
 
     </div>
 
     <div class="multimedija" hidden>
 
-    <div class="photo" hidden>
+        <div class="photo" hidden>
 
-        <h2>Multimedija</h2>
+            <h2>Multimedija</h2>
 
-        <p>točkice su zapravo bitne, pomažu s orijentacijom</p>
+            <p>točkice su zapravo bitne, pomažu s orijentacijom</p>
 
-        <p>primjer van foldera u kojem je .html</p>
-        <img width="300px" src="../primjer.jpg" alt="primjer van foldera u kojem je .html" >
+            <p>primjer van foldera u kojem je .html</p>
+            <img width="300px" src="../primjer.jpg" alt="primjer van foldera u kojem je .html">
 
-        <p>primjer u folderu koji sibling od foldera u kojem je .html</p>
-        <img src="../slike/primjer_u_folderu.jpg" width="300px" alt="primjer u folderu koji sibling od foldera u kojem je .html">
-        
-        <p>u istom file-u kao .html</p>
-        <img src="u_src_file-u.jpg" alt="u istom file-u kao .html" width="300px">
-        <br>
-        <img src="../slike/proba_za_css.jpg" alt="">
+            <p>primjer u folderu koji sibling od foldera u kojem je .html</p>
+            <img src="../slike/primjer_u_folderu.jpg" width="300px"
+                alt="primjer u folderu koji sibling od foldera u kojem je .html">
 
-        
-        <div class="proba" >
-           
+            <p>u istom file-u kao .html</p>
+            <img src="u_src_file-u.jpg" alt="u istom file-u kao .html" width="300px">
+            <br>
+            <img src="../slike/proba_za_css.jpg" alt="">
+
+
+            <div class="proba">
+
+            </div>
+
+
+            <div class="svgProba">
+
+                <svg width="400" height="200">
+                    <rect width="200" height="100" x="100" y="50" stroke="#11q2r" stroke-width="2px"></rect>
+                </svg>
+                <hr>
+                <svg width="400" height="200">
+                    <circle cr="100" r="85"></circle>
+                    <!--ni mi bas jasno skroz al nije strasno-->
+                </svg>
+
+            </div>
+
+            <div class="canvasProba" width="1500" height="1500">
+                <!--korsti se u jednostavnim igricama u browseru-->
+                <!--container za js praktički-->
+
+                <canvas class="myCanvas" width="200" height="100" style="border:1px solid #000000">
+
+                </canvas>
+
+                <canvas id="tecajcanvasa" width="600" height="600">
+                    Vaš preglednik ne podržava canvas
+                </canvas>
+
+            </div>
+
+            <div class="svgproba">
+
+                <svg width="400" height="200">
+                    <circle cx="200" cy="100" r="85" stroke="" stroke-width="10" fill="red"></circle>
+                </svg>
+
+                <svg width="800" height="400">
+
+                    <circle cx="200" cy="150" r="50" stroke="blue" stroke-width="10" fill="none"></circle>
+                    <circle cx="320" cy="150" r="50" stroke="black" stroke-width="10" fill="none"></circle>
+                    <circle cx="440" cy="150" r="50" stroke="red" stroke-width="10" fill="none"></circle>
+                    <circle cx="260" cy="200" r="50" stroke="orange" stroke-width="10" fill="none"></circle>
+                    <circle cx="380" cy="200" r="50" stroke="green" stroke-width="10" fill="none"></circle>
+
+                </svg>
+
+            </div>
+
         </div>
-    
-
-        <div class="svgProba"  >
-
-            <svg width="400" height="200">
-                <rect width="200" height="100" x="100" y="50" stroke="#11q2r" stroke-width="2px"></rect>
-            </svg>
-            <hr>
-            <svg width="400" height="200">
-                <circle cr="100" r="85"></circle>
-                <!--ni mi bas jasno skroz al nije strasno-->
-            </svg>
-
-        </div>
-
-        <div class="canvasProba" width="1500" height="1500" >
-            <!--korsti se u jednostavnim igricama u browseru-->
-            <!--container za js praktički-->
-            
-           <canvas class="myCanvas" 
-           width="200" 
-           height="100" 
-           style="border:1px solid #000000">
-
-        </canvas>
-
-        <canvas id="tecajcanvasa" width="600" height="600">
-            Vaš preglednik ne podržava canvas
-        </canvas>
-
-        </div>
-
-        <div class="svgproba">
-
-            <svg width="400" height="200">
-                <circle cx="200" cy="100" r="85" stroke="" stroke-width="10" fill="red"></circle>
-            </svg>
-    
-            <svg width="800" height="400">
-    
-                <circle cx="200" cy="150" r="50" stroke="blue" stroke-width="10" fill="none"></circle>
-                <circle cx="320" cy="150" r="50" stroke="black" stroke-width="10" fill="none"></circle>
-                <circle cx="440" cy="150" r="50" stroke="red" stroke-width="10" fill="none"></circle>
-                <circle cx="260" cy="200" r="50" stroke="orange" stroke-width="10" fill="none"></circle>
-                <circle cx="380" cy="200" r="50" stroke="green" stroke-width="10" fill="none"></circle>
-                
-            </svg>
-    
-        </div>
-
-    </div>
 
         <div class="audio" hidden>
 
             </audio>
-            <audio src="../audio/Sting_Englishman_In_New_York.mp3" controls  ></audio> <!--loop autoplay -- stavit ako hoćeš da krene kad dodes na stranicu-->
+            <audio src="../audio/Sting_Englishman_In_New_York.mp3" controls></audio>
+            <!--loop autoplay -- stavit ako hoćeš da krene kad dodes na stranicu-->
 
             <audio controls>
                 <!--za više opcija, ako ne podržava prvu ide na drugu i tako dalje-->
-                <source src="" type="audio/ogg"><!--za ogg-->
-                <source src="../audio/Sting_Englishman_In_New_York.mp3" type="audio/mpeg"><!--za mp3-->
+                <source src="" type="audio/ogg">
+                <!--za ogg-->
+                <source src="../audio/Sting_Englishman_In_New_York.mp3" type="audio/mpeg">
+                <!--za mp3-->
             </audio>
 
         </div>
 
         <div class="video" hidden>
 
-            <video src="" width="" height="" controls></video> <!--mp4, ogg-->
+            <video src="" width="" height="" controls></video>
+            <!--mp4, ogg-->
 
             <video src="">
                 <source src="" type="video/mp4">
             </video>
 
         </div>
-    
-    
+
+
     </div>
 
 
@@ -236,8 +243,10 @@
     <div class="tablice" hidden>
         <table border="1">
             <caption>Rezultati završnog ispita</caption>
-            <tr> <!--red-->
-                <th>Redni Broj</th> <!--za zaglavlje-->
+            <tr>
+                <!--red-->
+                <th>Redni Broj</th>
+                <!--za zaglavlje-->
                 <th>Ime</th>
                 <th>Prezime</th>
                 <th>Zanimanje</th>
@@ -274,12 +283,12 @@
             <tr>
                 <td>5.</td>
                 <td colspan="2">Pavo</td>
-                
+
                 <td>Trut</td>
                 <td>-1</td>
             </tr>
         </table>
-<hr>
+        <hr>
         <table border="1">
             <tr>
                 <td colspan="3">red 1 ćelija 1 </td>
@@ -290,14 +299,16 @@
                 <td>red 2 ćelija 6</td>
             </tr>
             <tr>
-                <td >red 3 ćelija 7</td>
+                <td>red 3 ćelija 7</td>
                 <td colspan="2">red 3 ćelija 8</td>
             </tr>
         </table>
-<hr>
+        <hr>
         <table border="1">
-            <tr> <!--red-->
-                <td rowspan="3">Red 1 ćelija 1</td> <!--celija u tom redu-->
+            <tr>
+                <!--red-->
+                <td rowspan="3">Red 1 ćelija 1</td>
+                <!--celija u tom redu-->
                 <td>red 1 ćelija 2</td>
                 <td>red 1 ćelija 3</td>
             </tr>
@@ -307,10 +318,10 @@
             </tr>
             <tr>
                 <td>red 3 ćelija 9</td>
-                
+
             </tr>
         </table>
-<hr>
+        <hr>
         <table border="1">
             <tr>
                 <td>T</td>
@@ -320,7 +331,7 @@
             <tr>
                 <td rowspan="2">H</td>
                 <td>R</td>
-                
+
             </tr>
             <tr>
                 <td>C</td>
@@ -328,7 +339,7 @@
             </tr>
 
         </table>
-<hr>
+        <hr>
         <table border="1">
             <tr>
                 <td>T</td>
@@ -338,7 +349,7 @@
             <tr>
                 <td rowspan="2">H</td>
                 <td>R</td>
-                
+
             </tr>
             <tr>
                 <td colspan="2">C</td>
@@ -349,7 +360,7 @@
         <table border="1">
 
         </table>
-<hr>
+        <hr>
         <table border="1">
             <caption>Web development team</caption>
             <tr>
@@ -382,7 +393,7 @@
             <tr>
                 <th colspan="3">Web developers</th>
                 <th colspan="3">QA and testing specialists</th>
-                
+
             </tr>
             <tr>
                 <td>
@@ -426,68 +437,68 @@
                 </td>
             </tr>
         </table>
-</div>
+    </div>
 
 
-<div class="obrasci" hidden>
-    <form action method="post" enctype="text/plain" autocomplete="on" hidden>
-        <label for="ime">Ime</label> <br>
-        <label for="">Krivo</label> <br>
-        <input id="ime" type="text" placeholder="ime">
-        <button>Klikni me</button>
-    </form>
+    <div class="obrasci" hidden>
+        <form action method="post" enctype="text/plain" autocomplete="on" hidden>
+            <label for="ime">Ime</label> <br>
+            <label for="">Krivo</label> <br>
+            <input id="ime" type="text" placeholder="ime">
+            <button>Klikni me</button>
+        </form>
 
-    <form action="" method="post" class="zadatak1Form">
-        <div>
-        <label for="ime">Ime i prezime *</label> <br>
-        <input id="ime" name="ime" type="text" placeholder="Vaše ime i prezime">
-        </div>
-        <div>
-        <label for="email">E-mail adresa *</label> <br>
-        <input type="email" name="email" id="email" placeholder="Upišite valjanu email adresu" size="30">
-        </div>
-        <div>
-            <label for="kontakt">Kontakt broj</label> <br>
-            <input type="tel" name="kontakt" id="kontakt">
-        </div>
-        <div>
-            <label for="date">Datum rođenja</label> <br>
-            <input type="date" name="date" id="date">
-        </div>
-        <div>
-            <p>Koje jezike govorite?</p>
-            <br>
-            <label for="eng">Engleski</label>
-            <input type="checkbox" name="jezik" id="engleski" value="engleski">
-            <label for="tal">Talijanski</label>
-            <input type="checkbox" name="jezik" id="tal" value="talijanski"> 
-            <label for="njem">Njemački</label>
-            <input type="checkbox" name="jezik" id="njem" value="njemački">
-            <label for="fran">Francuski</label>
-            <input type="checkbox" name="jezik" id="fran" value="francuski">
-            <label for="span">Španjolski</label>
-            <input type="checkbox" name="jezik" id="span" value="španjolski">
-        </div>
+        <form action="" method="post" class="zadatak1Form">
+            <div>
+                <label for="ime">Ime i prezime *</label> <br>
+                <input id="ime" name="ime" type="text" placeholder="Vaše ime i prezime">
+            </div>
+            <div>
+                <label for="email">E-mail adresa *</label> <br>
+                <input type="email" name="email" id="email" placeholder="Upišite valjanu email adresu" size="30">
+            </div>
+            <div>
+                <label for="kontakt">Kontakt broj</label> <br>
+                <input type="tel" name="kontakt" id="kontakt">
+            </div>
+            <div>
+                <label for="date">Datum rođenja</label> <br>
+                <input type="date" name="date" id="date">
+            </div>
+            <div>
+                <p>Koje jezike govorite?</p>
+                <br>
+                <label for="eng">Engleski</label>
+                <input type="checkbox" name="jezik" id="engleski" value="engleski">
+                <label for="tal">Talijanski</label>
+                <input type="checkbox" name="jezik" id="tal" value="talijanski">
+                <label for="njem">Njemački</label>
+                <input type="checkbox" name="jezik" id="njem" value="njemački">
+                <label for="fran">Francuski</label>
+                <input type="checkbox" name="jezik" id="fran" value="francuski">
+                <label for="span">Španjolski</label>
+                <input type="checkbox" name="jezik" id="span" value="španjolski">
+            </div>
 
-        <div>
-            <p>Jeste li do sada koristili usluge našega poduzeća?</p> <br>
-            <label for="da">DA</label>
-            <input type="radio" name="pozitivno" id="da" value="da">
-            <label for="ne">NE</label>
-            <input type="radio" name="ne" id="ne" value="ne">
-        </div>
+            <div>
+                <p>Jeste li do sada koristili usluge našega poduzeća?</p> <br>
+                <label for="da">DA</label>
+                <input type="radio" name="pozitivno" id="da" value="da">
+                <label for="ne">NE</label>
+                <input type="radio" name="ne" id="ne" value="ne">
+            </div>
 
-        <div>
-            <label for="prilog">Priloži životopis</label> <br>
-            <input type="file" name="file" id="prilog">
-        </div>
-        <div>
-            <input type="reset" name="reset" id="reset" value="poništi">
-            <input type="submit" name="submit" id="submit" value="prijavi se">
-        </div>
+            <div>
+                <label for="prilog">Priloži životopis</label> <br>
+                <input type="file" name="file" id="prilog">
+            </div>
+            <div>
+                <input type="reset" name="reset" id="reset" value="poništi">
+                <input type="submit" name="submit" id="submit" value="prijavi se">
+            </div>
 
-    </form>
-</div>
+        </form>
+    </div>
 
 
     <!--prostor za ono što trenutno radim-->
@@ -498,15 +509,22 @@
                 <h1>Naslov stranice</h1>
                 <nav>
                     <ul>
-                        <a href="#oNama"><li>O nama</li></a>
-                        <a href=""><li>Kontakt</li></a>
-                        <a href=""><li>nesto</li></a>
+                        <a href="#oNama">
+                            <li>O nama</li>
+                        </a>
+                        <a href="">
+                            <li>Kontakt</li>
+                        </a>
+                        <a href="">
+                            <li>nesto</li>
+                        </a>
                     </ul>
                 </nav>
             </header>
             <main>
                 <h2>naslov</h2>
-                <h3 id="oNama">o nama</h3> <!--koristim camelCase-->
+                <h3 id="oNama">o nama</h3>
+                <!--koristim camelCase-->
                 <article>
                     <h4>Naša misija</h4>
                     <p>...</p>
@@ -521,48 +539,62 @@
                     <p>...</p>
                     <a href="put do detaljnijeg opisa internet marketinga">saznaj više</a>
                 </section>
-                    <h3>Naš stručni tim</h3>
+                <h3>Naš stručni tim</h3>
                 <section>
                     <h4>Web dev</h4>
-                    <figure title="Ana banana"><img src="/svg/svg/ana.svg" alt="bla" width="100px" height="100px"> <details>Ana Banana</details> </figure> <!--ovo s details je tako cool, pa sam ostavio znam da ide drugačije, ali ovo mi je baš fora-->
+                    <figure title="Ana banana"><img src="/svg/svg/ana.svg" alt="bla" width="100px" height="100px">
+                        <details>Ana Banana</details>
+                    </figure>
+                    <!--ovo s details je tako cool, pa sam ostavio znam da ide drugačije, ali ovo mi je baš fora-->
                     <h4>Web dev</h4>
-                    <figure title="gjuro palica"><img src="/svg/svg/ana.svg" alt="bla" width="100px" height="100px"> <p>gjuro palica</p></figure> <!--pricali se o opisu za figure, nisam se mogao sjetit pa sam stavio p, izgleda isto, jasno mi je da semantički nije to to, nisam se mogao sjetiti kako opsiati sliku a da izgleda kako je izgledalo na slici-->
+                    <figure title="gjuro palica"><img src="/svg/svg/ana.svg" alt="bla" width="100px" height="100px">
+                        <p>gjuro palica</p>
+                    </figure>
+                    <!--pricali se o opisu za figure, nisam se mogao sjetit pa sam stavio p, izgleda isto, jasno mi je da semantički nije to to, nisam se mogao sjetiti kako opsiati sliku a da izgleda kako je izgledalo na slici-->
                     <h4>Web dev</h4>
-                    <figure title="stipe ladica"><img src="/svg/svg/ana.svg" alt="bla" width="100px" height="100px"><p>stipe ladica</p></figure>
+                    <figure title="stipe ladica"><img src="/svg/svg/ana.svg" alt="bla" width="100px" height="100px">
+                        <p>stipe ladica</p>
+                    </figure>
                     <h4>Web dev</h4>
-                    <figure title="mila pilica"><img src="/svg/svg/ana.svg" alt="bla" width="100px" height="100px"><p>mila pilica</p></figure> 
+                    <figure title="mila pilica"><img src="/svg/svg/ana.svg" alt="bla" width="100px" height="100px">
+                        <p>mila pilica</p>
+                    </figure>
                 </section>
-                <h3>Korisni linkovi</h3> <!--da je po mome stavljao bi sve naslove unutar konteinera, jer mi je onda kasnije lakše editat u css-u, nisam siguran jesu li ovdje svi unutra ili vani ali vidio sam da neki jesu pa sam odlučio biti konzistentan, ali kažem da je po mom glavni naslovi za konteinere bi bili unutar njih-->
+                <h3>Korisni linkovi</h3>
+                <!--da je po mome stavljao bi sve naslove unutar konteinera, jer mi je onda kasnije lakše editat u css-u, nisam siguran jesu li ovdje svi unutra ili vani ali vidio sam da neki jesu pa sam odlučio biti konzistentan, ali kažem da je po mom glavni naslovi za konteinere bi bili unutar njih-->
                 <aside>
                     <a href="">link</a>
                     <a href="">link</a>
                     <a href="">link</a>
                     <a href="">link</a>
                 </aside>
-                <h2>Tvrtak xyz</h2> <!-- ovo mi isto nije jasno baš, moguće da je trebalo biti u footer-u ali tek mi to nema smisla jer bi footer trebao biti za popratne linkove kontakt i slično-->
+                <h2>Tvrtak xyz</h2>
+                <!-- ovo mi isto nije jasno baš, moguće da je trebalo biti u footer-u ali tek mi to nema smisla jer bi footer trebao biti za popratne linkove kontakt i slično-->
             </main>
             <footer>
                 <h4>Kontakt</h4>
                 <address>
-                    <p><i>ulica</i></p> <!-- vjerojatno postoji i neki link tipe za lokaciju ali nisam mogao naći, odlučio sam se za i jer iako možda je važna informacija, nije važna za neki kontekst da bi se trebala naglasiti, ono što bi s druge strane dodao a tu nije je adresa: pa onda ulica iako ima svoj tag mislim da bi bilo praktično svejedno-->
-                <a href="mailto:">a@gmail.com</a>
-                <a href="tel:">124326246</a>
+                    <p><i>ulica</i></p>
+                    <!-- vjerojatno postoji i neki link tipe za lokaciju ali nisam mogao naći, odlučio sam se za i jer iako možda je važna informacija, nije važna za neki kontekst da bi se trebala naglasiti, ono što bi s druge strane dodao a tu nije je adresa: pa onda ulica iako ima svoj tag mislim da bi bilo praktično svejedno-->
+                    <a href="mailto:">a@gmail.com</a>
+                    <a href="tel:">124326246</a>
 
-                <!--address konteiner je cijeli nesto kriv jer mi ne odgovaraju razmaci i ne znam kako da to popravim, mogao bi ih staviti u listu i u css-u maknuti točke ali ostavljam ovako vjerujem da postoji način da se to drugačije napravi samo ga ja ne znam trenutno-->
+                    <!--address konteiner je cijeli nesto kriv jer mi ne odgovaraju razmaci i ne znam kako da to popravim, mogao bi ih staviti u listu i u css-u maknuti točke ali ostavljam ovako vjerujem da postoji način da se to drugačije napravi samo ga ja ne znam trenutno-->
 
-            </address>
-            <h4>pratite nas na društvenim mrežama</h4>
-            <a href=""><img src="/primjer.jpg" alt="" width="50" height="50"></a>
-            <a href=""><img src="/primjer.jpg" alt="" width="50" height="50"></a>
-            
+                </address>
+                <h4>pratite nas na društvenim mrežama</h4>
+                <a href=""><img src="/primjer.jpg" alt="" width="50" height="50"></a>
+                <a href=""><img src="/primjer.jpg" alt="" width="50" height="50"></a>
+
             </footer>
         </div>
     </div>
 
 
     <!--tu završava-->
-    
-<script src="script.js"></script>
-<!--vjeran.zivkovic@predavaci.algebra.hr-->
+
+    <script src="script.js"></script>
+    <!--vjeran.zivkovic@predavaci.algebra.hr-->
 </body>
+
 </html>
