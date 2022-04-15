@@ -429,7 +429,7 @@
 </div>
 
 
-<div class="obrasci">
+<div class="obrasci" hidden>
     <form action method="post" enctype="text/plain" autocomplete="on" hidden>
         <label for="ime">Ime</label> <br>
         <label for="">Krivo</label> <br>
@@ -492,12 +492,77 @@
 
     <!--prostor za ono što trenutno radim-->
 
+    <div class="elements">
+        <div class="zadatak1">
+            <header>
+                <h1>Naslov stranice</h1>
+                <nav>
+                    <ul>
+                        <a href="#oNama"><li>O nama</li></a>
+                        <a href=""><li>Kontakt</li></a>
+                        <a href=""><li>nesto</li></a>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <h2>naslov</h2>
+                <h3 id="oNama">o nama</h3> <!--koristim camelCase-->
+                <article>
+                    <h4>Naša misija</h4>
+                    <p>...</p>
+                    <h4>Vlasnička struktura firme</h4>
+                </article>
+                <h3>Naša djelatnost</h3>
+                <section>
+                    <h4>web design</h4>
+                    <p>...</p>
+                    <a href="put do detaljnijeg opisa web dizajna">saznaj više</a>
+                    <h4>Internet marketing</h4>
+                    <p>...</p>
+                    <a href="put do detaljnijeg opisa internet marketinga">saznaj više</a>
+                </section>
+                    <h3>Naš stručni tim</h3>
+                <section>
+                    <h4>Web dev</h4>
+                    <figure title="Ana banana"><img src="/svg/svg/ana.svg" alt="bla" width="100px" height="100px"> <details>Ana Banana</details> </figure> <!--ovo s details je tako cool, pa sam ostavio znam da ide drugačije, ali ovo mi je baš fora-->
+                    <h4>Web dev</h4>
+                    <figure title="gjuro palica"><img src="/svg/svg/ana.svg" alt="bla" width="100px" height="100px"> <p>gjuro palica</p></figure> <!--pricali se o opisu za figure, nisam se mogao sjetit pa sam stavio p, izgleda isto, jasno mi je da semantički nije to to, nisam se mogao sjetiti kako opsiati sliku a da izgleda kako je izgledalo na slici-->
+                    <h4>Web dev</h4>
+                    <figure title="stipe ladica"><img src="/svg/svg/ana.svg" alt="bla" width="100px" height="100px"><p>stipe ladica</p></figure>
+                    <h4>Web dev</h4>
+                    <figure title="mila pilica"><img src="/svg/svg/ana.svg" alt="bla" width="100px" height="100px"><p>mila pilica</p></figure> 
+                </section>
+                <h3>Korisni linkovi</h3> <!--da je po mome stavljao bi sve naslove unutar konteinera, jer mi je onda kasnije lakše editat u css-u, nisam siguran jesu li ovdje svi unutra ili vani ali vidio sam da neki jesu pa sam odlučio biti konzistentan, ali kažem da je po mom glavni naslovi za konteinere bi bili unutar njih-->
+                <aside>
+                    <a href="">link</a>
+                    <a href="">link</a>
+                    <a href="">link</a>
+                    <a href="">link</a>
+                </aside>
+                <h2>Tvrtak xyz</h2> <!-- ovo mi isto nije jasno baš, moguće da je trebalo biti u footer-u ali tek mi to nema smisla jer bi footer trebao biti za popratne linkove kontakt i slično-->
+            </main>
+            <footer>
+                <h4>Kontakt</h4>
+                <address>
+                    <p><i>ulica</i></p> <!-- vjerojatno postoji i neki link tipe za lokaciju ali nisam mogao naći, odlučio sam se za i jer iako možda je važna informacija, nije važna za neki kontekst da bi se trebala naglasiti, ono što bi s druge strane dodao a tu nije je adresa: pa onda ulica iako ima svoj tag mislim da bi bilo praktično svejedno-->
+                <a href="mailto:">a@gmail.com</a>
+                <a href="tel:">124326246</a>
 
+                <!--address konteiner je cijeli nesto kriv jer mi ne odgovaraju razmaci i ne znam kako da to popravim, mogao bi ih staviti u listu i u css-u maknuti točke ali ostavljam ovako vjerujem da postoji način da se to drugačije napravi samo ga ja ne znam trenutno-->
+
+            </address>
+            <h4>pratite nas na društvenim mrežama</h4>
+            <a href=""><img src="/primjer.jpg" alt="" width="50" height="50"></a>
+            <a href=""><img src="/primjer.jpg" alt="" width="50" height="50"></a>
+            
+            </footer>
+        </div>
+    </div>
 
 
     <!--tu završava-->
     
 <script src="script.js"></script>
-vjeran.zivkovic@predavaci.algebra.hr
+<!--vjeran.zivkovic@predavaci.algebra.hr-->
 </body>
 </html>
