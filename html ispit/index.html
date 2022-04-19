@@ -9,9 +9,20 @@
         body {
             margin: 0 25% 0 25% ;
         }
-        header div {
+        header div, main div {
             text-align: center;    
         }
+        
+        /*list unutar nav*/
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+        li {
+            margin: 0 10px 0 10px;
+        }
+
         form div {
             margin: 20px 0 0 0;
         }
@@ -33,7 +44,10 @@
 <hr>
     </header>
     <main>
-        <h2>Turistička agencija ‘’Avanturist’’</h2>
+        <div>
+            <h2>Turistička agencija ‘’Avanturist’’</h2>
+        </div>
+        
 
             <section id="o-nama">
                 <h3>O nama</h3>
