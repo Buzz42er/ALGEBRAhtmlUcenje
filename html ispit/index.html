@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turistička agencija ‘’Avanturist’’</title>
+    <style>
+        body {
+            margin: 0 25% 0 25% ;
+        }
+        header div {
+            text-align: center;    
+        }
+        form div {
+            margin: 20px 0 0 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Turistička agencija ‘’Avanturist’’</h1>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#o-nama">O nama</a></li>
+                <li><a href="#nase-djelatnosti">Naše djelatnosti</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+<hr>
+    </header>
+    <main>
+        <h2>Turistička agencija ‘’Avanturist’’</h2>
+
+            <section id="o-nama">
+                <h3>O nama</h3>
+                <p>
+                    Turistička ili putnička agencija je gospodarski subjekt posredovanja u putovanjima odnosno turizmu koji obavlja poslove posredništva, koordinacije i organizacije na turističkom tržištu. Turistička agencija[1] može se definirati kao subjekt trgovačkog prava čija se temeljna djelatnost sastoji u organiziranju i sklapanju ugovora o prijevozu, ugovora vezanih uz boravak turista u nekom kraju, te pružanju drugih usluga svojim klijentima i sudionicima turističkog prometa.
+                </p>
+                <figure><img src="/html ispit/ispit slike/team.jpg" alt="slika tima"></figure>
+            </section>
+
+            <section id="nase-djelatnosti">
+                <h3>Naša djelatnost</h3>
+                <p>
+                    Prvi začeci[3] u povijesti posredovanja i organiziranja putovanja temeljeni su na organizaciji putnih ureda u Rimskom Carstvu (Cursus Publicus), a kasnije se razvija poštanska prijevozna služba, najprije u Francuskoj, a kasnije u ostatku Europe, od sredine 16. do sredine 19. stoljeća. Razvoj organizacija i posredovanja u putovanjima razvijao se zahvaljujući društvenom napretku, a veliku ulogu je imala i masovna izgradnja prometnih putnih pravaca i prijevoznih sredstava. Kao rezultat toga, u Francuskoj se pojavio prvi ured za informiranje i posredovanje tzv. Bureau d'Adresses „Coq d'Or“ (Zlatni pijetao) koji se bavio organiziranjem i iznajmljivanjem kočija, konja ili mazga, obavljanjem rezervacije smještaja[4] na putu i u odredištu i sl. Broj ovakvih ureda, koji su pružali usluge organiziranja i posredovanja, znatno se povećava u 18. stoljeću u Francuskoj, Engleskoj, Italiji i Njemačkoj. Dobili su naziv „enterpreneurs“ što na francuskom jeziku znači poduzetnik. 
+                </p>
+                <figure><img src="/html ispit/ispit slike/adventure.jpg" alt=""></figure>
+            </section>
+
+            <section id="kontakt">
+                <h3>Kontakt</h3>
+                <p>
+                    Najpoznatiji poduzetnik tog vremena zasigurno je bio G.A. Galigani, koji je proširio asortiman uobičajenih usluga i nudio korisne savjete vezane uz putovanje. Za te je poslove posjedovao čitaonicu u Parizu, koja je sadržavala informacije koje su bile nužne za putovanja, kao npr.: putopisi, vodiči, bilteni, vozni redovi i drugo. Galigani je također pokrenuo i svoj časopis „Galignanis Masenger“ i dnevni bilten pod nazivom „Stranger's Diary“ u kojima su se nalazile različite informacije – od voznih redova, imena hotela ili prenoćišta, graničnih formalnosti i sl.
+                </p>
+                <!--action sam ostavio prazan jer smo imali takav primjer ranije, gdje nije bilo slanja forme, također svjestan sam da u ovome slučaju form nije nužan pošto ne šaljemo podatke na sever, ali sam ga uključio zbog method i enctype-a(iako, ponavljam, svjestan sam da su to funkcije koje su korisne samo kod slanja na server)-->
+                <form action method="post" enctype="text/plain"> 
+                    <div>
+                        <label for="ime">Ime i prezime *</label>
+                        <input type="text" name="ime" id="ime" placeholder="Ovdje unesite Ime i Prezime" required>  
+                    </div>
+                    <div>
+                        <label for="mail">E-mail adresa *</label>
+                        <input type="email" name="mail" id="mail" placeholder="primjer@primjer.com" required>   
+                    </div>
+                    <div>
+                        <label for="poruka"></label>
+                        <textarea name="poruka" id="poruka" cols="30" rows="10" placeholder="Ovdje nam možete napisati poruku"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Pošalji</button>
+                    </div>
+                </form>                
+            </section>
+<hr>
+    </main>
+    <footer>
+        <!--dvojio sam se između span i p elementa, no zaključio sam kako je p dovoljan jer se radi o običnome tekst koji je većinom bitan isključivo u pravnom smislu, tako da mislim da ga nije potrebno semantički označit jer neće trebati nikome tko neće moći doći na dno stranice i pročitat, eventualno em ako bi pokušao naznačiti da je bitno-->
+        <p>Avanturist&copy;2022</p> 
+        <a href="mailto:jure.eres42@gmail.com"><img src="/html ispit/ispit slike/mail.png" alt="email ikona"></a>
+    </footer>
+</body>
+</html>
